@@ -1,0 +1,6 @@
+{
+  "name": "UCMAS Math Arena",
+  "description": "UCMAS Thane Kopri East Math Arena: Comprehensive mental arithmetic training, Anzan duels, boss raids, 20-digit calculator, AI sheet scanner, and student-parent-teacher portals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

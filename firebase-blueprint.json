@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "UserProfile": {
+      "collection": "students",
+      "fields": {
+        "uid": "string",
+        "name": "string",
+        "email": "string",
+        "className": "string",
+        "level": "string",
+        "tokens": "number",
+        "xp": "number",
+        "attendance": "number",
+        "feeStatus": "string",
+        "feeAmount": "number",
+        "status": "string"
+      }
+    },
+    "PendingStudent": {
+      "collection": "pending_students",
+      "fields": {
+        "id": "string",
+        "name": "string",
+        "email": "string",
+        "requestedClass": "string",
+        "timestamp": "number",
+        "status": "string"
+      }
+    },
+    "HomeworkRecord": {
+      "collection": "homework",
+      "fields": {
+        "id": "string",
+        "studentId": "string",
+        "assignmentTitle": "string",
+        "dateAssigned": "string",
+        "dueDate": "string",
+        "status": "string",
+        "scorePercent": "number",
+        "teacherFeedback": "string"
+      }
+    },
+    "ClassDiaryEntry": {
+      "collection": "class_diary",
+      "fields": {
+        "id": "string",
+        "date": "string",
+        "className": "string",
+        "type": "string",
+        "topic": "string",
+        "description": "string",
+        "pagesOrFormulas": "string",
+        "assignedBy": "string"
+      }
+    },
+    "NoticeEvent": {
+      "collection": "notices",
+      "fields": {
+        "id": "string",
+        "title": "string",
+        "date": "string",
+        "description": "string",
+        "venue": "string",
+        "isHighPriority": "boolean"
+      }
+    }
+  }
+}
